@@ -1,0 +1,54 @@
+{
+  "discord": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "send-message",
+        "scriptName": "SendMessage",
+        "highlight": false,
+        "params": [
+          {
+            "id": "_url",
+            "type": "string"
+          },
+          {
+            "id": "_name",
+            "type": "string"
+          },
+          {
+            "id": "_avatar",
+            "type": "string"
+          },
+          {
+            "id": "_message",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "id": "send-embed",
+        "scriptName": "SendEmbed",
+        "highlight": false,
+        "params": [
+          {
+            "id": "_url",
+            "type": "string"
+          },
+          {
+            "id": "_title",
+            "type": "string"
+          },
+          {
+            "id": "_description",
+            "type": "string"
+          },
+          {
+            "id": "_color",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  }
+}

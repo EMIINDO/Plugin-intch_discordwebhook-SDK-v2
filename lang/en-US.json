@@ -1,0 +1,67 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Discord Webhook Plugin",
+  "text": {
+    "plugins": {
+      "intch_discordwebhook": {
+        "name": "Discord Webhook",
+        "description": "Discord Webhook",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {},
+        "aceCategories": {
+          "discord": "General"
+        },
+        "conditions": {},
+        "actions": {
+          "send-message": {
+            "list-name": "Send Message",
+            "display-text": "{0}, {1}, {2}, {3}",
+            "description": "Send Message",
+            "params": {
+              "_url": {
+                "name": "URL",
+                "desc": "Webhook URL"
+              },
+              "_name": {
+                "name": "Name",
+                "desc": "Webhook Name"
+              },
+              "_avatar": {
+                "name": "Avatar URL",
+                "desc": "Webhook Avatar"
+              },
+              "_message": {
+                "name": "Message",
+                "desc": "Webhook Message"
+              }
+            }
+          },
+          "send-embed": {
+            "list-name": "Send Embed",
+            "display-text": "{0}, {1}, {2}, {3}",
+            "description": "Send Embed",
+            "params": {
+              "_url": {
+                "name": "URL",
+                "desc": "Webhook URL"
+              },
+              "_title": {
+                "name": "Title",
+                "desc": "Embed Title"
+              },
+              "_description": {
+                "name": "Description",
+                "desc": "Embed Message"
+              },
+              "_color": {
+                "name": "Color",
+                "desc": "Embed Color(Decimal)"
+              }
+            }
+          }
+        },
+        "expressions": {}
+      }
+    }
+  }
+}
